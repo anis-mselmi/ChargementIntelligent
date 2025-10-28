@@ -23,6 +23,3 @@ python main.py <url> [output_filename]
 Example
 python main.py https://example.com/file.zip file.zip
 
-Notes
-- I made this myself without AI.
-- The script writes metadata to `<output>.json` after download.
