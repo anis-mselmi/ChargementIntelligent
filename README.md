@@ -6,7 +6,7 @@ Features
 - Parallel chunked downloads
 - Resume support via temporary parts
 - Optional tqdm progress bar
-- SHA256 verification (when used programmatically)
+
 
 Requirements
 - Python 3.6+
