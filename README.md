@@ -1,7 +1,6 @@
-# PyEdgeDownloader
+# Downloader
 
-A small multi-threaded downloader I wrote without AI.  
-It supports ranged downloads, optional progress with tqdm, and writes a JSON metadata file with SHA256.
+A small multi-threaded downloader.
 
 Features
 - Parallel chunked downloads
@@ -23,3 +22,5 @@ python main.py <url> [output_filename]
 Example
 python main.py https://example.com/file.zip file.zip
 
+Notes
+- The script writes metadata to `<output>.json` after download.
